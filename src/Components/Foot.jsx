@@ -9,7 +9,7 @@ import shield from '../assets/shield.png'
 const Foot = () => {
     return (
         <footer className='font-poppins mt-16 flex flex-col justify-center items-center text-white  '>
-            <div className=" min-h-[427px] w-screen px-6 py-20 bg-left flex flex-col items-center justify-center gap-8 md:h-[358px] xl:h-[636px] xl:bg-no-repeat xl:bg-cover xl:w-screen "
+            <div className=" min-h-[427px] w-screen px-6 py-20 bg-left flex flex-col items-center justify-center gap-8 md:h-[358px] xl:h-[636px] xl:bg-no-repeat xl:bg-cover xl:w-full "
                 style={{
                     backgroundImage: `url(${footbg})`
                 }}>
@@ -64,7 +64,7 @@ const Foot = () => {
 
 
 
-            <div className='mt-20 font-poppins md:flex md:justify-between  md:w-screen md:gap-20 items-center md:border-b md:border-[#E6E6E6] md:px-10 xl:px-48 ' >
+            <div className='mt-20 font-poppins md:flex md:justify-between  md:w-screen md:gap-20 items-center md:border-b md:border-[#E6E6E6] md:px-10 xl:px-48 xl:w-full' >
                 <div className=' flex justify-center items-center gap-2  '>
                     <img src={logo} alt="Logo" className='min-w-[44.92743682861328px] min-h-[44.99911880493164px] md:h-[48.05024719238281px] md:w-[48.05024719238281px] xl:w-[59.90325164794922px] xl:h-[59.998043060302734px]' />
                     <p className='text-white text-[33.75px] font-bold md:text-[36.1px] xl:text-[45px]'>Web</p>
@@ -80,6 +80,8 @@ const Foot = () => {
                 </div>
 
             </div>
+
+            
 
 
 

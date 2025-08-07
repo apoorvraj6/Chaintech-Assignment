@@ -11,7 +11,7 @@ import arrowDown from '../assets/arrowDown.png'
 
 const Head = () => {
     return (
-        <header className='flex justify-center items-center gap-10'>
+        <header className='flex justify-center items-center gap-10 '>
         <div className='flex flex-col items-center justify-center font-poppins md:h-[547px] h-[333px] w-[663px] md:w-[663px] xl:h-[668px] xl:w-[956px]'>
             <div className='flex flex-col justify-center items-center '>
                 <h1 className='text-white  font-extrabold text-[78.79px] min-w-[373px] leading-[0.9] tracking-[-0.03em] md:font-extrabold md:text-[136px] xl:text-[188px]'>PRODUCT</h1>

@@ -5,7 +5,7 @@ import 'react-circular-progressbar/dist/styles.css'
 const SkillCard = ({ percentage, title, description }) => {
     return (
 
-        <div className=" text-white border-[#737373] font-poppins rounded-[10px] border-[1px] p-6 text-center flex flex-col items-center  md:border-[0.82px] md:rounded-[8.22px] md:flex-row gap-4 md:pt-[32.87px] md:pr-[41.09px] md:pb-[49.31px] md:pl-[32.87px] xl:justify-start">
+        <div className=" text-white border-[#737373] font-poppins rounded-[10px] border-[1px] p-6 text-center flex flex-col items-center  md:border-[0.82px] md:rounded-[8.22px] md:flex-row gap-4 md:pt-[32.87px] md:pr-[41.09px] md:pb-[49.31px] md:pl-[32.87px] xl:justify-start ">
             <div className="w-[164px] h-[164px] mb-4 rounded-[90px]  md:min-h-[180.78704833984375px] md:min-w-[180.78704833984375px] xl:min-w-[220px] xl:min-h-[220px] ">
 
                 <CircularProgressbar

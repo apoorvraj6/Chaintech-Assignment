@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cards = ({ title, image, tags }) => {
   return (
-    <div className=" border-[#737373] p-4 w-full max-w-sm font-poppins border-[1.07px] flex flex-col gap-3 justify-center items-start md:pl-8 md:mx-auto md:rounded-[9.55px] md:border-[0.95px]">
+    <div className=" border-[#737373] p-4 w-full max-w-sm font-poppins border-[1.07px] flex flex-col gap-3 justify-center items-start md:pl-8 md:mx-auto md:rounded-[9.55px] md:border-[0.95px] ">
       <img src={image} alt={title} className="rounded-[10.67px] mt-[32px]  h-[213px] w-[320px] object-cover" />
       
       <h3 className="text-white font-bold text-[20px] xl:text[24px]">{title}</h3>

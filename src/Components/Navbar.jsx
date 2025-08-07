@@ -6,7 +6,7 @@ const Navbar = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
     return (
-        <nav className='text-white font-poppins flex justify-between items-center pb-[30px] px-[22px] relative'>
+        <nav className='text-white font-poppins flex justify-between items-center pb-[30px] px-[22px] relative '>
             <div className='flex items-center gap-1'>
                 <img src={logo} alt="Logo" className='w-[26.623666763305664px] h-[26.623666763305664px]' />
                 <p className="text-[20px] font-bold">Web</p>
